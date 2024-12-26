@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet"
+    href="css/style.css">
+</head>
+<body>
+    <form id="quiz-form">
+        <h1>Add questions</h1>
+        <input type="text" id="optionA" placeholder="optionA" required>
+        <input type="text" id="optionB" placeholder="optionB" required>
+        <input type="text" id="optionC" placeholder="optionC" required>
+        <input type="text" id="optionD" placeholder="optionD" required>
+<input type="text" id="correctOption" placeholder="correctOption" required>
+<button type="submit">Add questions</button>
+</form>
+<div id="questions-grid"></div>
+<script src="module" src="js/quiz.js"></script>
+    </body>
+</html>
+        
